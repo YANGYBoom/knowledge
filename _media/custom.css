@@ -12,6 +12,8 @@
 
 :root {
   font-family: 'FiraCode-Regular', cursive;
+  --docsifytabs-border-color: #ededed;
+  --docsifytabs-tab-highlight-color: purple;
 }
 
 section.cover .cover-main {
