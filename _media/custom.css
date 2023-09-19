@@ -30,6 +30,10 @@ section.cover .cover-main>p:last-child a .iconfont {
   font-size: 1em;
 }
 
+.markdown-section {
+  padding: 0 !important;
+}
+
 /* 加重描述 strong*/
 .markdown-section strong {
   color: rgb(239, 112, 96);
