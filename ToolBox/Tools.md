@@ -26,10 +26,10 @@
  ### 2.2 图标下载
 
 * [阿里矢量图标库 - 图标下载](https://www.iconfont.cn/)
-  ![](https://wugenqiang.github.io/PictureBed/pictures/20190427114906.png)
+  ![阿里矢量图标库](../_media/Tool/阿里矢量图标库.png)
 
 * [icon8 图标](https://icons8.cn/)
-  ![](https://wugenqiang.github.io/PictureBed/pictures/20190427115034.png)
+  ![icon8](../_media/Tool/icon8.png)
 
 * [视觉中国](https://www.vcg.com/)
 
@@ -40,30 +40,30 @@
 ### 2.4 免费抠图工具
 
 * [稿定设计](https://www.focodesign.com/create-design)
-  ![](https://wugenqiang.github.io/PictureBed/pictures/20190427112421.png)
+  ![稿定设计](../_media/Tool/稿定设计.png)
 
 ### 2.5 压缩图片
 
 * [Picdiet](https://www.picdiet.com/zh-cn)
-  ![](https://wugenqiang.github.io/PictureBed/pictures/20190427112632.png)
+  ![Picdiet](../_media/Tool/Picdiet.png)
 
 * [Squoosh](https://squoosh.app/)
   这是 Google 搞的一个免费开源在线压缩工具
-  ![](https://wugenqiang.github.io/PictureBed/pictures/20190427114055.png)
+  ![Squoosh](../_media/Tool/Squoosh.png)
 
 * [docsmall](https://docsmall.com/image-compress)
   在线图片压缩,在线图片压缩软件,工具大全
-  ![](../_media/Tool/docsmall.png)
+  ![docsmall](../_media/Tool/docsmall.png)
 
 * [TinyPNG](https://tinypng.com/)
   一个图片无损压缩网站
-  ![](../_media/Tool/TinyPNG.png)
+  ![TinyPNG](../_media/Tool/TinyPNG.png)
 
 ### 2.6 GIF 图处理
 
 * [SOOGIF](https://www.soogif.com/)
   网站不仅提供了 gif 图像处理, 还提供了许多 gif 资源
-  ![](https://wugenqiang.github.io/PictureBed/pictures/20190427114338.png)
+  ![SOOGIF](../_media/Tool/SOOGIF.png)
 
 ### 2.7 图片放大
 
@@ -75,24 +75,33 @@
   无需上传文件也可在线处理图片的神器
   ![imagesTool](../_media/Tool/imagestool.png)
 
+### 2.9 emoji
+
+* [emojiall](https://www.emojiall.com/zh-hans)
+  Emoji表情大全
+
 ## 3 文件格式转换
+
+* [Cloud Convert](https://cloudconvert.com/)
+  一个十分强大的在线格式转换工具
+  ![Cloud Convert](../_media/Tool/CloudConvert.png)
 
 * [Office Converter](https://cn.office-converter.com/)
   支持视频、音频、图片、Office 文档等的文件转换工具
-  ![Office Converter](https://wugenqiang.github.io/PictureBed/pictures/gif007.gif)
+  ![Office Converter](../_media/Tool/OfficeConverter.gif)
 
 * [PickFrom](https://zh.pickfrom.net/)
   不仅仅可以转换文件，而且可以截图、下载视频呢
-  ![](https://wugenqiang.github.io/PictureBed/pictures/20190427105235.png)
+  ![PickFrom](../_media/Tool/PickFrom.png)
 
 * [Smallpdf](https://smallpdf.com/)
   支持格式互转、压缩、合并、拆分 PDF
-  ![](https://wugenqiang.github.io/PictureBed/pictures/20190427111522.png)
+  ![Smallpdf](../_media/Tool/Smallpdf.png)
 
 ## 4 在线短信接收
 
 * [在线短信接收](https://www.pdflibr.com/) 云短信
-  ![在线短信接收](https://wugenqiang.github.io/PictureBed/pictures/20190427104808.png)
+  ![在线短信接收](../_media/Tool/在线短信接收.png)
 
 
 ## 5 在线作图
@@ -117,7 +126,6 @@
 
 * [视频特效 PhotoMosh ](https://photomosh.com/)
   提供抖音风格的特效，可以对图片、视频进行简单的处理
-  ![](https://wugenqiang.github.io/PictureBed/pictures/20190427112047.png)
 
 ## 9 色彩搭配
 
@@ -135,35 +143,15 @@
 
 * [美桌壁纸网](http://www.win4000.com/)
 
-## 13 PDF 获取
+## 13 PDF
 
-### 13.1 鸠摩搜索
+* [iLovePDF](https://www.ilovepdf.com/zh-cn)
+  一个完全免费、便捷、强大的PDF在线工具
+  ![iLovePDF](../_media/Tool/ilovepdf.png)
 
-* [https://www.jiumodiary.com/](https://www.jiumodiary.com/)
-
-### 13.2 PDF 之家
-
-* [http://pdfzj.cn/](http://pdfzj.cn/)
-
-### 13.3 计算机书籍控
-
-* [http://bestcbooks.com/](http://bestcbooks.com/)
-
-### 13.4 淘链客
-
-* [http://www.toplinks.cc/](http://www.toplinks.cc/)
-
-### 13.5 Library Genesis
-
-* [https://libgen.is/](https://libgen.is/)
-
-### 13.6 Electronic library
-
-* [https://b-ok.asia/](https://b-ok.asia/)
-
-### 13.7 ITBook
-
-* [https://itbook.download/](https://itbook.download/)
+* [PDF转换](https://pdfcandy.com/cn/)
+  在线处理PDF：编辑、拆分、合并、压缩等等
+  ![PDF转换](../_media/Tool/pdfcandy.png)
 
 ## 14 浏览器插件
 
@@ -194,7 +182,7 @@
 ## 15 其他
 
 * [万能兔工具网](https://www.wntool.com/)
-* [工具网](https://www.tooleyes.com/)
+* [在线工具](https://tool.lu/)
 * [Windows系统](https://msdn.itellyou.cn/)
 * [MD5 解密](https://cmd5.la/)
 * [SSL 漏洞在线检测工具](http://scan.ssleye.com/)

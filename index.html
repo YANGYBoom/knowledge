@@ -14,9 +14,8 @@
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <!-- Adsense 资源投放 -->
-  <script data-ad-client="ca-pub-1890271224952559" async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
+  <!-- <script data-ad-client="ca-pub-1890271224952559" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
   <!-- 谷歌站点收录 -->
   <!-- <meta name="google-site-verification" content="qTFCf1hJ275saQ7H1kin5t2DVpznBKAj0Gi50XMOVMo" /> -->
   <!-- 百度站点收录 -->
@@ -31,7 +30,7 @@
   <!-- alert -->
   <link rel="stylesheet" href="https://notebook.js.org/plugin/sweetalert.min.css" type='text/css' media='all' />
   <!-- 友链 -->
-  <link rel="stylesheet" href="https://notebook.js.org/plugin/css/friends-link.css">
+  <!-- <link rel="stylesheet" href="https://notebook.js.org/plugin/css/friends-link.css"> -->
   <!-- 自定义特色样式：by myself -->
   <link rel="stylesheet" href="https://notebook.js.org/plugin/css/me.css">
 
@@ -59,10 +58,8 @@
       topMargin: 60,//调整top
       //executeScript: true,//执行页面上的脚本，仅解析第一个脚本标签
       search: {
-        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        maxAge: 86400000,
         paths: 'auto',
-        // placeholder: '搜索',
-        // noData: '找不到结果',
         depth: 6,
         // 支持本地化
         placeholder: {
@@ -74,35 +71,23 @@
           '/zh-cn/': '找不到结果',
           '/': '找不到结果'
         },
-        // 避免搜索索引冲突
-        // 同一域下的多个网站之间
+        // 避免搜索索引冲突，同一域下的多个网站之间
         namespace: 'website-1',
-        // 使用不同的索引作为路径前缀（namespaces）
-        // 注意：仅适用于 paths: 'auto' 模式
-        //
-        // 初始化索引时，我们从侧边栏查找第一个路径
-        // 如果它与列表中的前缀匹配，我们将切换到相应的索引
+        // 初始化索引时，我们从侧边栏查找第一个路径，如果它与列表中的前缀匹配，我们将切换到相应的索引
         pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
-        // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
         // 匹配到的字符串将被用来识别索引
         pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
       },
-      // search: {
-      //   paths: 'auto',
-      //   placeholder: '🔍 搜索',
-      //   noData: '😒 找不到结果',
-      //   // Headline depth, 1 - 6
-      //   depth: 6,
-      //   maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-      // },
       // 谷歌分析 SEO
       // ga: 'UA-164658031-2',
+      // 页脚
       footer: {
         copy: '<span>Copyright &copy; 2023 - 至今</span>',
         auth: ' <a href="https://github.com/YANGYBoom/" target="_blank">🏷️ EnjoyToShare </a> <span> 陪你度过漫长岁月。⭐️</span>',
         pre: '<hr/>',
         style: 'text-align: left;',
-      },//添加页脚
+      },
+      // markdown
       markdown: {
         renderer: {
           code: function (code, lang, base = null) {
@@ -212,7 +197,7 @@
   <!-- docsify-tabs (latest v1.x.x) -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <!-- 给网页上的中文和英文、数字、符号之间添加空格 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script> -->
   <!-- 侧边栏样式 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <!-- This is the source code of the pdf embed plugin -->
@@ -266,20 +251,14 @@
   <script src="https://notebook.js.org/plugin/js/prism-yaml.js"></script>
   <script src="https://notebook.js.org/plugin/js/prism-go.js"></script>
   <script src="https://notebook.js.org/plugin/js/prism-matlab.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-java.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-css.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-javascript.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-js.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-html.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-markup.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-bash.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-java.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-css.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-javascript.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-js.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-html.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-markup.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-bash.min.js"></script> -->
 
-  <!-- 使用 Gitter 实现一个 IM 即时通讯聊天室功能 -->
-  <!-- <script>
-    ((window.gitter = {}).chat = {}).options = {
-      room: 'enjoytoshare/community'
-    };
-  </script> -->
   <!-- <script src="https://notebook.js.org/plugin/sidecar.v1.js" async defer></script> -->
 
   <!-- mouse click -->
@@ -335,38 +314,8 @@
     siteTime();
   </script>
 
-  <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
-  <script>
-    L2Dwidget.init({
-      "model": {
-        //jsonpath控制显示那个小萝莉模型，
-        //(切换模型需要改动)
-        jsonPath: "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",
-        "scale": 1
-      },
-      "display": {
-        "position": "right", //看板娘的表现位置
-        "width": 70,  //小萝莉的宽度
-        "height": 140, //小萝莉的高度
-        "hOffset": 35,
-        "vOffset": -20
-      },
-      "mobile": {
-        "show": true,
-        "scale": 0.5
-      },
-      "react": {
-        "opacityDefault": 0.7,
-        "opacityOnHover": 0.2
-      }
-    });
-  </script>
-
   <!-- 访问量统计 -->
   <script async src="https://notebook.js.org/plugin/js/busuanzi.pure.mini.js"></script>
-
-  <!-- 谷歌分析 -->
-  <!-- <script src="https://notebook.js.org/plugin/js/ga.min.js"></script> -->
 
   <!-- 实现离线化 -->
   <script>

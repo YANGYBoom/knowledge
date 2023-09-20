@@ -40,7 +40,7 @@ section.cover .cover-main>p:last-child a .iconfont {
 }
 
 .app-nav {
-  position: fixed;
+  position: fixed !important;
   margin: 0;
   /*padding: 10px 50px 10px 0;*/
   padding: 10px 0 10px 0;
@@ -48,7 +48,11 @@ section.cover .cover-main>p:last-child a .iconfont {
   width: calc(100% - 325px);
   background-color: #fff;
   height: 55px;
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
+}
+
+.app-nav.no-badge {
+  margin: 0;
 }
 
 /*.github-corner{
@@ -357,5 +361,12 @@ h4 {
 
 .docsify-pagination-container {
   /* border-top: none; */
-  display: none;
+  display: none !important;
+  border: none !important;
+}
+
+/* 底部hr */
+.markdown-section hr {
+  border-bottom: none !important;
+  /* display: none !important; */
 }
