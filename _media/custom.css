@@ -39,16 +39,30 @@ section.cover .cover-main>p:last-child a .iconfont {
   color: rgb(239, 112, 96);
 }
 
-.app-nav {
+/* 主题切换 */
+#docsify-darklight-theme {
+  top: 35px !important;
+}
+
+[data-theme="light"] .app-nav {
   position: fixed !important;
   margin: 0;
-  /*padding: 10px 50px 10px 0;*/
   padding: 10px 0 10px 0;
   /*上、右、下、左*/
   width: calc(100% - 325px);
   background-color: #fff;
   height: 55px;
   /* border-bottom: 1px solid #eee; */
+}
+
+[data-theme="dark"] .app-nav {
+  position: fixed !important;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  /*上、右、下、左*/
+  width: calc(100% - 325px);
+  background-color: #000;
+  height: 55px;
 }
 
 .app-nav.no-badge {
