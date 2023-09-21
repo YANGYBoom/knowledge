@@ -1,5 +1,6 @@
 :root {
-  font-family: 'FiraCode-Regular', cursive;
+  /* font-family: 'FiraCode-Regular', cursive; */
+  font-family: "Microsoft YaHei", 'FiraCode-Regular', "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
   --docsifytabs-border-color: #ededed;
   --docsifytabs-tab-highlight-color: purple;
 }
@@ -44,7 +45,7 @@ section.cover .cover-main>p:last-child a .iconfont {
   top: 35px !important;
 }
 
-[data-theme="light"] .app-nav {
+.app-nav {
   position: fixed !important;
   margin: 0;
   padding: 10px 0 10px 0;
@@ -55,29 +56,13 @@ section.cover .cover-main>p:last-child a .iconfont {
   /* border-bottom: 1px solid #eee; */
 }
 
-[data-theme="dark"] .app-nav {
-  position: fixed !important;
-  margin: 0;
-  padding: 10px 0 10px 0;
-  /*上、右、下、左*/
-  width: calc(100% - 325px);
-  background-color: #000;
-  height: 55px;
-}
-
 .app-nav.no-badge {
   margin: 0;
 }
 
-/*.github-corner{
-  position: absolute;
-  z-index: 999999;
-  top: 0;
-}*/
-
 .markdown-section code {
   border-radius: 2px;
-  font-family: "FiraCode-Regular", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  font-family: 'FiraCode-Regular', "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
   font-size: 16px !important;
   margin: 0 2px;
   padding: 3px 5px;
@@ -204,7 +189,7 @@ pre {
 /*代码块头部图标 end*/
 .markdown-section pre>code {
   color: #c0c3c1 !important;
-  font-family: "FiraCode-Regular", 'Inconsolata', consolas, "PingFang SC", "Microsoft YaHei", monospace !important;
+  font-family: 'FiraCode-Regular', 'Inconsolata', consolas, "PingFang SC", "Microsoft YaHei", monospace !important;
   background-color: #212121 !important;
   font-size: 15px !important;
   white-space: pre !important;
