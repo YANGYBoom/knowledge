@@ -18,8 +18,10 @@
 
 <br>
 
-[<i class="iconfont icon-github"></i> GitHub](https://github.com/YANGYBoom)
-[马上开始 <i class="iconfont icon-down"></i>](/README.md)
+<!-- [<i class="iconfont icon-github"></i> GitHub](https://github.com/YANGYBoom) -->
+
+[🐟 先去摸鱼](https://www.crazygames.com/)
+[开始学习 <i class="iconfont icon-down"></i>](/README.md)
 
 <!-- 背景色 -->
 
