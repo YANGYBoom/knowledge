@@ -34,6 +34,7 @@ section.cover .cover-main>p:last-child a .iconfont {
 }
 
 .markdown-section {
+  max-width: 90% !important;
   padding: 0 !important;
 }
 
@@ -150,8 +151,10 @@ p code {
   margin: 3rem 0 2rem 0;
 }
 
+/* 设置h2标题的margin */
 .markdown-section h2 {
-  margin: 2rem 0 1rem;
+  /* margin: 2rem 0 1rem; */
+  margin: 18px 0 0.8rem !important;
 }
 
 img,
