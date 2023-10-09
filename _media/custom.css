@@ -38,6 +38,11 @@ section.cover .cover-main>p:last-child a .iconfont {
   padding: 0 !important;
 }
 
+/* 设置有序列表左内边距 */
+.markdown-section ol {
+  padding-left: 40px !important;
+}
+
 /* 加重描述 strong*/
 .markdown-section strong {
   color: rgb(239, 112, 96);
